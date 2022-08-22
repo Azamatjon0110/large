@@ -1,0 +1,111 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-500 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('../fonts/playfair-display-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/playfair-display-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/playfair-display-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.logo{
+  font-family: "Playfair Display","Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.header-btn{
+  position: relative;
+}
+
+.header-btn::before{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  top: 10px;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url("../imgaes/searxh-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.hero{
+  padding-bottom: 24px;
+}
+
+
+.hero-title{
+  font-family: "Playfair Display","Times New Roman", serif;
+  font-weight: 500;
+
+}
+
+.hero-text{
+  font-family: "Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif;
+}
+
+.card-title{
+  font-family: "Playfair Display","Times New Roman", serif;
+  font-weight: 600;
+}
+
+.firehose-title{
+  font-family: "Playfair Display","Times New Roman", serif;
+  font-weight: 600;
+}
+
+.infor-box-title{
+  font-family: "Playfair Display","Times New Roman", serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.exam-title{
+  font-family: "Playfair Display","Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.about-position{
+  top: 2rem;
+}
+
+.site-footer{
+  padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 0.05rem solid #e5e5e5;
+}
+
+@media only screen and (min-width:320px) and (max-width:375px) {
+  .header-btn{
+    font-size: 15px;
+  }
+  .header-btn::before{
+    display: none;
+  }
+
+  .exam-title{
+    font-weight: 500;
+  }
+}
